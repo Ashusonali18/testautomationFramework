@@ -1,0 +1,25 @@
+package base;
+
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+
+
+public class Pages extends Basetest {
+	@Test
+	public static void LoginTest()
+	{
+	 driver.findElement(By.linkText("Sign in")).click();
+	 driver.findElement(By.xpath("//input[@id='login_id']")).sendKeys("sonaliqa952@gmail.com");
+	 driver.findElement(By.id("nextbtn")).click();
+	 
+	 driver.findElement(By.id("password")).sendKeys("yuki@18jan");
+	 driver.findElement(By.id("nextbtn")).click();
+	 
+	 
+
+	}
+	
+
+}

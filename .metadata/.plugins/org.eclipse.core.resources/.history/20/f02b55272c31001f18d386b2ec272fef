@@ -1,0 +1,5 @@
+Signin_link =Sign in 
+email_field =//div[@id='password_container']//div[@class='username'][normalize-space()='Sonaliqa952@gmail.com']
+next_button = //a[@class='zlogin-apps']
+pwd_field=//input[@id='login_id']
+login_next_button= //button[@id='nextbtn']
